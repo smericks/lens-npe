@@ -3,16 +3,19 @@
 This repository contains source code for Erickson et al. 2024 "Lens Modeling of 
 STRIDES Strongly Lensed Quasars using Neural Posterior Estimation"
 
-Use make_figures.ipynb to reproduce all figures in the paper. 
+To reproduce all figures in the paper, use Paper/make_figures.ipynb. This will
+require a Zenodo download (TODO: link zenodo here).
 
-This code base consists of 
-- analysis scripts that call paltas NPE 
-- hierarchical Bayesian inference (HBI) source code  
+See Notebooks for demonstrations of key analysis components:
+- configurations for training neural networks (training_networks.ipynb)
+- feeding images to a neural network to generate mass model posteriors (make_predictions.ipynb)
+- hierarchical Bayesian inference for a lens mass population model (hierarchical_inference.ipynb)
+- hierarchical re-weighting of individual posteriors to account for out-of-distribution shift (posterior_reweighting.ipynb)
+(Some notebooks also require the Zenodo download)
 
-This code base heavily relies on the use of paltas (). Note that while updates 
-from this project are being merged into the paltas main branch, this fork of 
+This code base heavily relies on the use of paltas (https://github.com/swagnercarena/paltas). Note that while updates 
+from this project are being merged into the paltas main branch, the @smericks fork of 
 paltas contains all necessary updates: 
     https://github.com/smericks/paltas
-
 
 
