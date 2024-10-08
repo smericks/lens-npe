@@ -9,7 +9,7 @@ require a Zenodo download (TODO: link zenodo here).
 See Notebooks for demonstrations of key analysis components:
 - configurations for training neural networks (training_networks.ipynb)
 - feeding images to a neural network to generate mass model posteriors (make_predictions.ipynb)
-- hierarchical Bayesian inference for a lens mass population model (hierarchical_inference.ipynb)
+- hierarchical Bayesian inference for lens mass population models (hierarchical_inference.ipynb)
 - hierarchical re-weighting of individual posteriors to account for out-of-distribution shift (posterior_reweighting.ipynb)
 (Some notebooks also require the Zenodo download)
 
