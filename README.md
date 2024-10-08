@@ -11,7 +11,8 @@ See Notebooks for demonstrations of key analysis components:
 - feeding images to a neural network to generate mass model posteriors (make_predictions.ipynb)
 - hierarchical Bayesian inference for lens mass population models (hierarchical_inference.ipynb)
 - hierarchical re-weighting of individual posteriors to account for out-of-distribution shift (posterior_reweighting.ipynb)
-(Some notebooks also require the Zenodo download)
+
+Note: some notebooks also require the Zenodo download
 
 This code base heavily relies on the use of paltas (https://github.com/swagnercarena/paltas). Note that while updates 
 from this project are being merged into the paltas main branch, the @smericks fork of 
