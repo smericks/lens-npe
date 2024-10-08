@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+h5py
+matplotlib
+seaborn
+corner
+astropy
+lenstronomy
+tensorflow
+paltas
