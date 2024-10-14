@@ -4,7 +4,7 @@ This repository contains source code for Erickson et al. 2024 "Lens Modeling of
 STRIDES Strongly Lensed Quasars using Neural Posterior Estimation"
 
 To reproduce all figures in the paper, use Paper/make_figures.ipynb. This will
-require a ([Zenodo download](https://zenodo.org/records/13906030)). To recreate
+require a [Zenodo download](https://zenodo.org/records/13906030). To recreate
 figures, you do NOT need to download trained_models.tgz (26 GB!).
 
 This code base heavily relies on the use of paltas (https://github.com/swagnercarena/paltas). Note that while updates 
@@ -19,5 +19,3 @@ See Notebooks for demonstrations of key analysis components:
 - hierarchical re-weighting of individual posteriors to account for out-of-distribution shift (posterior_reweighting.ipynb)
 
 Note: some notebooks also require the Zenodo download
-
-
